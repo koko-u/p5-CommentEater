@@ -1,27 +1,40 @@
-This is Perl module CommentEater.
+CommentEater
+============
+
+ソースコードからコメントを削除するツール
+
+Description
+============
+
+Perl鍋で思い付きで作成することにしたツール。
+
+指定したディレクトリ配下のソースコードからコメントを削除することで、ソースコードを編集する時のノイズを減らす。
+
+Background
+============
+
+某企業では、ソースコードを変更する時には変更前のコードをコメントで残して、更に変更した日付や担当者をコメントに付与する、という残念標準がありコメントがノイズでしかない場面が多々ある。
+
+そこでプログラマの精神の安定を図るべく、それらのノイズを一括して削除するツールを作成することにした。
 
 INSTALLATION
+============
 
-CommentEater installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
-
-    % cpan CommentEater
-
-Download it, unpack it, then build it as per the usual:
+CommentEater は Module::Setup で作成したので、恐らくリポジトリを clone して
 
     % perl Makefile.PL
     % make && make test
-
-Then install it:
-
     % make install
 
+でインストールできるんじゃないかな？
+
 DOCUMENTATION
+=============
 
-CommentEater documentation is available as in POD. So you can do:
+ないよ
 
-    % perldoc CommentEater
+AUTHOR
+======
 
-to read the documentation online with your favorite pager.
+KOZAKI Tsuneaki(@koko_u)
 
-KOZAKI Tsuneaki
